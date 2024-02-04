@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225961257191",
+    "project_id": "announce-it-9317b",
+    "storage_bucket": "announce-it-9317b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225961257191:android:b73d9916ebe7c24b875a42",
+        "android_client_info": {
+          "package_name": "com.example.announceit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZsJXMPDH_fiDX7_mShX3LDuhi93NsQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
