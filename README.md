@@ -12,6 +12,7 @@ During the time I was studying in the universty each year we had to find and joi
 * **Dagger Hilt** for dependency injection
 * **Firebase Firestore** for saving and retrieving data online
 * **Firebase Storage** - online storage for uploading into and loading files from
+* **DownloadManager** to download files from the internet
 * **Retrofit** for http queries
 * **Room** for caching data
 * **Coroutines** for asynchronous execution of the code
@@ -26,7 +27,7 @@ As you open the app for the first time you'll see an authentication page. There'
 <img src="images/auth.png" alt="Auth" style="width: 30%; margin: 0 1%;" />
 
  ### 1. Student
-When you login as a student you'll see the latest announcements of the courses that you're in you can search for a specific announcements by their title, content, course name, teacher name and etc.
+When you login as a student you'll see the latest announcements of the courses that you're in. Also you can search for a specific announcements by their title, content, course name, teacher name and etc.
 
 <div style="display: flex; justify-content: center;">
     <img src="images/1.png" alt="1" style="width: 30%; margin: 0 1%;" />
@@ -45,6 +46,15 @@ In the details screen you see the full details of the announcements and attached
 
 <img src="images/5.png" alt="5" style="width: 30%; margin: 0 1%;" />
 
-As you click on one of the attachments the file will be downloaded and notification will pop up
+As you click on one of the attachments the file will be downloaded and a notification will pop up
 
 <img src="images/6.png" alt="6" style="width: 30%; margin: 0 1%;" />
+
+### 2. Teacher
+The main difference of teacher role from the student role is that teachers can create new announcements and edit the existing announcements that they made.
+
+<div style="display: flex; justify-content: center;">
+    <img src="images/t1.png" alt="1" style="width: 30%; margin: 0 1%;" />
+    <img src="images/t2.png" alt="2" style="width: 30%; margin: 0 1%;" />
+    <img src="images/t3.png" alt="3" style="width: 30%; margin: 0 1%;" />
+</div>
